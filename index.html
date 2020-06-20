@@ -1,0 +1,21 @@
+<head>
+    <meta charset="utf-8">
+    <title>おすすめのエアコン</title>
+    <link rel="stylesheet" type="text/css" href="design.css">
+</head>
+<body>
+  <h2>おすすめのエアコン</h2>
+  <a href="https://www.google.com/?hl=ja" target="_blank">Google</a>
+  <div class="center">
+    <p>条件を入力してください</p>
+    <form name="form1">
+      <input type="radio" name="kashitsu" value="ari">加湿あり
+      <input type="radio" name="kashitsu" value="nashi">加湿なし
+      <input type="number" name="space" min="6" max="10">畳
+    </form>
+    <button name="button" onclick="judge()">送信</button>
+    <div id="aircon"></div>
+  </div>
+
+  <script type="text/javascript" src="./aircon.js"></script>
+</body>
